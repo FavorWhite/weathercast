@@ -1,0 +1,60 @@
+.daypart-wrapper:after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+.daypart{
+    position: relative;
+    padding: 30px 10px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    color: #fff;
+    margin-bottom: 30px;
+    transition: width 0.5s ease-out 0s;
+    cursor: pointer;
+}
+.daypart.selected{
+    width: 40%;
+    transition: width 0.51s ease-out 0s;
+}
+.daypart.selected:after{
+    content: "";
+    display: block;
+    position: absolute;
+    border: 20px solid transparent;
+    bottom: -40px;
+    left: 50%;
+    width: 0;
+    margin-left: -20px;
+}
+.daypart-0 {
+    background-color: #1f4371;
+}
+.daypart-0.selected:after {
+    border-top: 20px solid #1f4371;
+}
+.daypart-1 {
+    background-color: #2962a9;
+}
+.daypart-1.selected:after {
+    border-top: 20px solid #2962a9;
+}
+.daypart-2 {
+    background-color: #347bd5;
+}
+.daypart-2.selected:after {
+    border-top: 20px solid #347bd5;
+}
+.daypart-3 {
+    background-color: #609ae1;
+}
+.daypart-3.selected:after {
+    border-top: 20px solid #609ae1;
+}
+.condition {
+    color: hsla(0,0%,100%,.75);
+}
+.temperature{
+    font-size: 32px;
+}

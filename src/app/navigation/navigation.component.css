@@ -1,0 +1,25 @@
+.navigation{
+    line-height: 70px;
+    background: #333;
+    margin-bottom: 20px;
+}
+
+.logo-wrapper{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.logo-image {
+    height: 50px;
+}
+
+.logo {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo:hover {
+text-decoration: none;
+}

@@ -1,0 +1,83 @@
+
+.weather-card {
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.05);
+    padding: 10px 10px;
+}
+
+.title-day-of-week{
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.weather-icon-wrapper {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.weather-icon {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.weather-card-header{
+    line-height: 46px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.weather-card-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #393939;
+}
+
+.w-period-link-wrapper{
+    float: right;
+    color: #3c8ed2;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 13px;
+    margin-right: 5px;
+}
+
+.w-period-link{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+.w-period-link a {
+    color: #3c8ed2;
+}
+
+.w-period-link a:hover {
+    text-decoration: none;
+    color: #3c8ed2;
+}
+
+.w-period-link:first-child{
+    border-right: 1px solid #3c8ed2;
+    padding-right: 10px;
+}
+
+.forecast-date-desc-wrapper{
+    padding: 20px 0;
+}
+
+.todays-forcast{
+    margin-bottom: 30px;
+}
+
+.conditions-wrapper , .embed-radar-wrapper{
+    width: 50%;
+    height: 300px;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.05);
+    padding: 10px 10px;
+    float: left;
+    /* For changes */
+    background-color: #fff;
+    font-size: 50px;
+}

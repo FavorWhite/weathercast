@@ -1,0 +1,388 @@
+{
+    "response": {
+        "version": "0.1",
+        "termsofService": "http://www.wunderground.com/weather/api/d/terms.html",
+        "features": {
+            "forecast": 1
+        }
+    },
+    "forecast": {
+        "txt_forecast": {
+            "date": "14:01 EET",
+            "forecastday": [
+                {
+                    "period": 0,
+                    "icon": "chancerain",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancerain.gif",
+                    "title": "Середа",
+                    "fcttext": "Невеликий дощ. Максимум 39градуси Фаренгейта. Вітер Пд-Сх від 5 до 10 миль за годину. Ймовірність дощу 80%.",
+                    "fcttext_metric": "Дощ. Максимум 4градуси Цельсія. Вітер Пд-Сх від 15 до 25 км/год. Ймовірність дощу 90%.",
+                    "pop": "80"
+                },
+                {
+                    "period": 1,
+                    "icon": "nt_chancerain",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+                    "title": "В ніч на Четвер",
+                    "fcttext": "На світанку періодично невеликий дощ. Мінімум 37градуси Фаренгейта. Вітер Пд-Пд-Сх від 10 до 15 миль за годину. Ймовірність дощу 50%.",
+                    "fcttext_metric": "На світанку періодично невеликий дощ. Мінімум 3градуси Цельсія. Вітер Пд-Пд-Сх від 10 до 15 км/год. Ймовірність дощу 60%.",
+                    "pop": "50"
+                },
+                {
+                    "period": 2,
+                    "icon": "chancerain",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancerain.gif",
+                    "title": "Четвер",
+                    "fcttext": "Невеликий дощ із посиленням протягом дня. Максимум 41градуси Фаренгейта. Вітер Пд-Пд-Сх від 5 до 10 миль за годину. Ймовірність дощу 40%.",
+                    "fcttext_metric": "Невеликий дощ із посиленням протягом дня. Максимум 5градуси Цельсія. Вітер Пд-Пд-Сх від 10 до 15 км/год. Ймовірність дощу 40%.",
+                    "pop": "40"
+                },
+                {
+                    "period": 3,
+                    "icon": "nt_chancerain",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+                    "title": "В ніч на П’ятницю",
+                    "fcttext": "Невеликий дощ. Мінімум 34градуси Фаренгейта. Вітер Пд і змінний. Ймовірність дощу 50%.",
+                    "fcttext_metric": "Невеликий дощ. Мінімум 1градуси Цельсія. Вітер Пд і змінний. Ймовірність дощу 50%.",
+                    "pop": "50"
+                },
+                {
+                    "period": 4,
+                    "icon": "partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+                    "title": "П’ятниця",
+                    "fcttext": "Уранці хмарно з подальшим сонцем після обіду. Максимум 39градуси Фаренгейта. Вітер Пд-Пд-Зх від 5 до 10 миль за годину.",
+                    "fcttext_metric": "Уранці хмарно з подальшим сонцем після обіду. Максимум 4градуси Цельсія. Вітер Пд-Пд-Зх від 10 до 15 км/год.",
+                    "pop": "20"
+                },
+                {
+                    "period": 5,
+                    "icon": "nt_chancerain",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+                    "title": "В ніч на Суботу",
+                    "fcttext": "На світанку періодично невеликий дощ. Мінімум 35градуси Фаренгейта. Вітер Пд-Зх від 5 до 10 миль за годину. Ймовірність дощу 40%.",
+                    "fcttext_metric": "На світанку періодично невеликий дощ. Мінімум 2градуси Цельсія. Вітер Пд-Зх від 10 до 15 км/год. Ймовірність дощу 40%.",
+                    "pop": "40"
+                },
+                {
+                    "period": 6,
+                    "icon": "cloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+                    "title": "Субота",
+                    "fcttext": "Хмарно. Максимум 42градуси Фаренгейта. Вітер Зх-Пд-Зх від 5 до 10 миль за годину.",
+                    "fcttext_metric": "Хмарно. Максимум 6градуси Цельсія. Вітер Зх-Пд-Зх від 10 до 15 км/год.",
+                    "pop": "20"
+                },
+                {
+                    "period": 7,
+                    "icon": "nt_mostlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/nt_mostlycloudy.gif",
+                    "title": "В ніч на Неділю",
+                    "fcttext": "Значна хмарність. Мінімум 36градуси Фаренгейта. Вітер Пд від 5 до 10 миль за годину.",
+                    "fcttext_metric": "Значна хмарність. Мінімум 2градуси Цельсія. Вітер Пд від 10 до 15 км/год.",
+                    "pop": "10"
+                }
+            ]
+        },
+        "simpleforecast": {
+            "forecastday": [
+                {
+                    "date": {
+                        "epoch": "1514998800",
+                        "pretty": "2018.01.03 19:00 EET",
+                        "day": 3,
+                        "month": 1,
+                        "year": 2018,
+                        "yday": 2,
+                        "hour": 19,
+                        "min": "00",
+                        "sec": 0,
+                        "isdst": "0",
+                        "monthname": "Січень",
+                        "monthname_short": "Січ",
+                        "weekday_short": "Ср",
+                        "weekday": "Середа",
+                        "ampm": "PM",
+                        "tz_short": "EET",
+                        "tz_long": "Europe/Kiev"
+                    },
+                    "period": 1,
+                    "high": {
+                        "fahrenheit": "39",
+                        "celsius": "4"
+                    },
+                    "low": {
+                        "fahrenheit": "37",
+                        "celsius": "3"
+                    },
+                    "conditions": "Можливий дощ",
+                    "icon": "chancerain",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancerain.gif",
+                    "skyicon": "",
+                    "pop": 80,
+                    "qpf_allday": {
+                        "in": 0.11,
+                        "mm": 3
+                    },
+                    "qpf_day": {
+                        "in": 0.08,
+                        "mm": 2
+                    },
+                    "qpf_night": {
+                        "in": 0.04,
+                        "mm": 1
+                    },
+                    "snow_allday": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "snow_day": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "snow_night": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "maxwind": {
+                        "mph": 10,
+                        "kph": 16,
+                        "dir": "Пд-Сх",
+                        "degrees": 141
+                    },
+                    "avewind": {
+                        "mph": 9,
+                        "kph": 14,
+                        "dir": "Пд-Сх",
+                        "degrees": 141
+                    },
+                    "avehumidity": 98,
+                    "maxhumidity": 0,
+                    "minhumidity": 0
+                },
+                {
+                    "date": {
+                        "epoch": "1515085200",
+                        "pretty": "2018.01.04 19:00 EET",
+                        "day": 4,
+                        "month": 1,
+                        "year": 2018,
+                        "yday": 3,
+                        "hour": 19,
+                        "min": "00",
+                        "sec": 0,
+                        "isdst": "0",
+                        "monthname": "Січень",
+                        "monthname_short": "Січ",
+                        "weekday_short": "Чт",
+                        "weekday": "Четвер",
+                        "ampm": "PM",
+                        "tz_short": "EET",
+                        "tz_long": "Europe/Kiev"
+                    },
+                    "period": 2,
+                    "high": {
+                        "fahrenheit": "41",
+                        "celsius": "5"
+                    },
+                    "low": {
+                        "fahrenheit": "34",
+                        "celsius": "1"
+                    },
+                    "conditions": "Можливий дощ",
+                    "icon": "chancerain",
+                    "icon_url": "http://icons.wxug.com/i/c/k/chancerain.gif",
+                    "skyicon": "",
+                    "pop": 40,
+                    "qpf_allday": {
+                        "in": 0.07,
+                        "mm": 2
+                    },
+                    "qpf_day": {
+                        "in": 0.02,
+                        "mm": 1
+                    },
+                    "qpf_night": {
+                        "in": 0.04,
+                        "mm": 1
+                    },
+                    "snow_allday": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "snow_day": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "snow_night": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "maxwind": {
+                        "mph": 10,
+                        "kph": 16,
+                        "dir": "Пд-Пд-Сх",
+                        "degrees": 151
+                    },
+                    "avewind": {
+                        "mph": 9,
+                        "kph": 14,
+                        "dir": "Пд-Пд-Сх",
+                        "degrees": 151
+                    },
+                    "avehumidity": 93,
+                    "maxhumidity": 0,
+                    "minhumidity": 0
+                },
+                {
+                    "date": {
+                        "epoch": "1515171600",
+                        "pretty": "2018.01.05 19:00 EET",
+                        "day": 5,
+                        "month": 1,
+                        "year": 2018,
+                        "yday": 4,
+                        "hour": 19,
+                        "min": "00",
+                        "sec": 0,
+                        "isdst": "0",
+                        "monthname": "Січень",
+                        "monthname_short": "Січ",
+                        "weekday_short": "Пт",
+                        "weekday": "П’ятниця",
+                        "ampm": "PM",
+                        "tz_short": "EET",
+                        "tz_long": "Europe/Kiev"
+                    },
+                    "period": 3,
+                    "high": {
+                        "fahrenheit": "39",
+                        "celsius": "4"
+                    },
+                    "low": {
+                        "fahrenheit": "35",
+                        "celsius": "2"
+                    },
+                    "conditions": "Невелика хмарність",
+                    "icon": "partlycloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/partlycloudy.gif",
+                    "skyicon": "",
+                    "pop": 20,
+                    "qpf_allday": {
+                        "in": 0.01,
+                        "mm": 0
+                    },
+                    "qpf_day": {
+                        "in": 0.00,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.01,
+                        "mm": 0
+                    },
+                    "snow_allday": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "snow_day": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "snow_night": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "maxwind": {
+                        "mph": 10,
+                        "kph": 16,
+                        "dir": "Пд-Пд-Зх",
+                        "degrees": 196
+                    },
+                    "avewind": {
+                        "mph": 9,
+                        "kph": 14,
+                        "dir": "Пд-Пд-Зх",
+                        "degrees": 196
+                    },
+                    "avehumidity": 89,
+                    "maxhumidity": 0,
+                    "minhumidity": 0
+                },
+                {
+                    "date": {
+                        "epoch": "1515258000",
+                        "pretty": "2018.01.06 19:00 EET",
+                        "day": 6,
+                        "month": 1,
+                        "year": 2018,
+                        "yday": 5,
+                        "hour": 19,
+                        "min": "00",
+                        "sec": 0,
+                        "isdst": "0",
+                        "monthname": "Січень",
+                        "monthname_short": "Січ",
+                        "weekday_short": "Сб",
+                        "weekday": "Субота",
+                        "ampm": "PM",
+                        "tz_short": "EET",
+                        "tz_long": "Europe/Kiev"
+                    },
+                    "period": 4,
+                    "high": {
+                        "fahrenheit": "42",
+                        "celsius": "6"
+                    },
+                    "low": {
+                        "fahrenheit": "36",
+                        "celsius": "2"
+                    },
+                    "conditions": "Похмуро",
+                    "icon": "cloudy",
+                    "icon_url": "http://icons.wxug.com/i/c/k/cloudy.gif",
+                    "skyicon": "",
+                    "pop": 20,
+                    "qpf_allday": {
+                        "in": 0.00,
+                        "mm": 0
+                    },
+                    "qpf_day": {
+                        "in": 0.00,
+                        "mm": 0
+                    },
+                    "qpf_night": {
+                        "in": 0.00,
+                        "mm": 0
+                    },
+                    "snow_allday": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "snow_day": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "snow_night": {
+                        "in": 0.0,
+                        "cm": 0.0
+                    },
+                    "maxwind": {
+                        "mph": 10,
+                        "kph": 16,
+                        "dir": "Зх-Пд-Зх",
+                        "degrees": 242
+                    },
+                    "avewind": {
+                        "mph": 9,
+                        "kph": 14,
+                        "dir": "Зх-Пд-Зх",
+                        "degrees": 242
+                    },
+                    "avehumidity": 87,
+                    "maxhumidity": 0,
+                    "minhumidity": 0
+                }
+            ]
+        }
+    }
+}

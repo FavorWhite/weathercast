@@ -1,0 +1,40 @@
+<div class="todays-forcast">
+ <div class="container">
+     <div class="row">
+        <div class="conditions-wrapper">
+            <conditions></conditions>
+        </div>
+        <div class="embed-radar-wrapper">
+                <!-- embed-radar -->
+             <iframe width="100%" height="100%" src="https://embed.windy.com/embed2.html?lat=50.433&lon=30.519&zoom=11&level=surface&overlay=wind&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&detailLat=50.077&detailLon=31.031&metricWind=m%2Fs&metricTemp=%C2%B0C" frameborder="0"></iframe>
+        </div>
+     </div>
+ </div>
+</div>
+
+<div class="dashboard-wrapper">
+    <div class="container">
+        <div class="row weather-card">
+            <header class="weather-card-header">
+                <span class="weather-card-title"> Наступні 36 годин </span>
+                <span class="w-period-link-wrapper">
+                    <div class="w-period-link">
+                        <a [routerLink]="['/hourly']" >Погодинно
+                            <span>&rarr;</span>
+                        </a>
+                    </div>
+                    <div class="w-period-link">
+                        <a [routerLink]="['/']">10 Днів
+                            <span>&rarr;</span>
+                        </a>
+                    </div>
+                </span>
+            </header>
+            <daypart 
+            [data]="data" 
+            [daynumber]="daynumber" 
+            (onSelect)="onDateSelect($event)"></daypart>
+            <forecast-date-desc [dataDescribing]="dataDescribing" [maxWind]="windProperty"></forecast-date-desc>
+        </div>
+    </div>
+</div>

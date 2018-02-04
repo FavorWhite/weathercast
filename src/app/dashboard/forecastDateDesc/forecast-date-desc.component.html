@@ -1,0 +1,24 @@
+<div class="forecast-date-desc-wrapper col-md-6" *ngFor="let item of dataDescribing">
+    <div class="part-of-day">{{item.period%2 == 0 ? 'Вдень' : 'Вночі'}}</div>
+    <div class="w-describing">{{item.fcttext_metric}}</div>
+    <div class="w-conditions">
+        <div class="condition-items">
+            <span class="items-icon"></span>
+            <span class="items-text">
+                <span class="items-label">ВІТЕР</span>
+                <span class="items-value">
+                        {{maxWind.dir}} {{maxWind.kph}}км/год
+                </span>
+            </span>
+        </div>
+        <div class="condition-items">
+            <span class="items-icon"></span>
+            <span class="items-text">
+                <span class="items-label">ВОЛОГІСТЬ</span>
+                <span class="items-value">
+                    <span class="">{{item.pop}}%</span>
+                </span>
+            </span>
+        </div>
+    </div>
+</div>

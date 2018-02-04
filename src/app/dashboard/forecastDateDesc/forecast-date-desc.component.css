@@ -1,0 +1,42 @@
+.forecast-date-desc-wrapper:first-child {
+    border-right: 2px solid #cac6c6;
+}
+.w-describing{
+    display: block;
+    line-height: 23px;
+    font-size: 15px;
+    min-height: 46px;
+    margin-bottom: 10px;
+}
+
+.w-conditions:after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.w-conditions{
+    padding: 10px 0;
+}
+
+.condition-items{
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.items-label{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.items-text{
+    font-size: 15px;
+}
+
+.part-of-day {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+<div class="daypart-wrapper">
+    <figure class="daypart-{{i}} daypart"
+    *ngFor="let item of data; let i = index" 
+    [class.selected]="i+1 == daynumber "
+    (click)="Select(i+1)"> 
+        <figcaption class="title-day-of-week">{{item.date.weekday}}</figcaption>
+        <div class="condition">{{item.conditions}}</div>
+        <div class="weather-icon-wrapper">
+            <img class="weather-icon" [src]="item.icon_url" />
+        </div>
+        <div>МАКС.</div>
+        <div class="temperature">{{item.high.celsius}}&deg;</div>
+        <div class="precipitation">{{item.pop}}%</div>
+    </figure>
+</div>
