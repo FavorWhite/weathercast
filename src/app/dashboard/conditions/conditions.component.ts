@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { CurrentObservation } from '../../common/classes/current-observation';
 
 @Component({
     selector: 'conditions',
@@ -6,6 +7,7 @@ import { Component } from '@angular/core';
     styleUrls: ['./conditions.component.css']
 })
 export class ConditionsComponent {
+    @Input() data: CurrentObservation;
 
 }
 

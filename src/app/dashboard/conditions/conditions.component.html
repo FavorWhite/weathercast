@@ -1,5 +1,17 @@
-<div class="container">
-    <div class="row">
-        <div class="conditions"> Conditions </div>
+<div class="today-nowcard today-card-day-{{data.icon}} "><!--  today-card-day-{{data.icon}} - realize condition for changing part of a day - from day to night  -->
+    <header>
+        <div class="locatoin">{{data.display_location.full}}</div>
+        <div class="last-update">{{data.observation_time}}</div>
+    </header>
+    <div class="today-nowcard-content">
+        <div class="temperature">{{data.temp_c}}&deg;</div>
+        <div class="weather-icon-wrapper">
+            <img [src]="data.icon_url">
+        </div>
+        <div class="weather">{{data.weather}}</div>
+        <div class="feelslike">{{data.feelslike_c}}&deg;</div>
+        <div class="wind-string">From the {{data.wind_dir}} at {{data.wind_kph}} km/h Gusting to {{data.wind_gust_kph}} km/h  </div>
+        <div class="visibility">Visibility: {{data.visibility_km}} km</div>
+        <div class="UV">Значення УФ {{data.UV}} з 10</div>
     </div>
 </div>

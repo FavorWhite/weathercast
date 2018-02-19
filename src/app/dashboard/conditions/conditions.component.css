@@ -1,0 +1,56 @@
+.today-nowcard{
+    height: 100%;
+    color: #fff;
+}
+.today-nowcard.today-card-day-clear{background-image:linear-gradient(#3b5bdb,#59b6e6)}
+.today-nowcard.today-card-day-cloudy{background-image:linear-gradient(#2d45a5,#458baf)}
+.today-nowcard.today-card-day-cloudy-mostly{background-image:linear-gradient(#384faf,#4f95b9)}
+.today-nowcard.today-card-day-cloudy-partly{background-image:linear-gradient(#3b57ca,#55a8d4)}
+.today-nowcard.today-card-day-foggy{background-image:linear-gradient(#747fae,#82a4b6)}
+.today-nowcard.today-card-day-ice{background-image:linear-gradient(#828ec2,#8eb4c8)}
+.today-nowcard.today-card-day-rain{background-image:linear-gradient(#3d4f9c,#5b93af)}
+.today-nowcard.today-card-day-snow{background-image:linear-gradient(#898fa9,#9eb1bb)}
+.today-nowcard.today-card-day-thunderstorms{background-image:linear-gradient(#465277,#202535)}
+.today-nowcard.today-card-night-clear{background-image:linear-gradient(#102667,#2559aa)}
+.today-nowcard.today-card-night-cloudy{background-image:linear-gradient(#192341,#324a72)}
+.today-nowcard.today-card-night-cloudy-mostly{background-image:linear-gradient(#121f47,#2a4b7e);}
+.today-nowcard.today-card-night-cloudy-partly{background-image:linear-gradient(#172757,#2b5392)}
+.today-nowcard.today-card-night-foggy{background-image:linear-gradient(#3b4357,#5b6d87)}
+.today-nowcard.today-card-night-ice{background-image:linear-gradient(#364365,#516e99)}
+.today-nowcard.today-card-night-rain{background-image:linear-gradient(#2e3753,#4d6489)}
+.today-nowcard.today-card-night-snow{background-image:linear-gradient(#3e4350,#616c7d)}
+.today-nowcard.today-card-night-thunderstorms{background-image:linear-gradient(#202535,#39465c)}
+
+
+
+/* .today-nowcard.today-card-day-clear{background-image:url(https://s.w-x.co/weather/assets/today-card-day-clear.6fa7ffd3d17f2544dee21f197674f900.jpg)}
+.today-nowcard.today-card-day-cloudy-mostly{background-image:url(https://s.w-x.co/weather/assets/today-card-day-cloudy-mostly.719be205d3bbe3fb76ee49128cdfa775.jpg)}
+.today-nowcard.today-card-day-cloudy-partly{background-image:url(https://s.w-x.co/weather/assets/today-card-day-cloudy-partly.a725a6b7b6fd5e0a9b353f4f4dbd6ef5.jpg)}
+.today-nowcard.today-card-day-cloudy{background-image:url(https://s.w-x.co/weather/assets/today-card-day-cloudy.adefff754ead53533cb02b4ed59feae8.jpg)}
+.today-nowcard.today-card-day-rain{background-image:url(https://s.w-x.co/weather/assets/today-card-day-rain.f5a1f2b6412082dd6ed636b45b1b6f55.jpg)}
+.today-nowcard.today-card-day-thunderstorms{background-image:url(https://s.w-x.co/weather/assets/today-card-day-thunderstorms.80ee5c57cd237bd2e2d56a9a83473556.jpg)}
+.today-nowcard.today-card-night-clear{background-image:url(https://s.w-x.co/weather/assets/today-card-night-clear.9f2db6dc2f9d5655c8ec196e6ef56677.jpg)}
+.today-nowcard.today-card-night-cloudy-mostly{ background-image:url(https://s.w-x.co/weather/assets/today-card-night-cloudy-mostly.bf70470c19fb428bbbd48983177ad15f.jpg) }
+.today-nowcard.today-card-night-cloudy-partly{background-image:url(https://s.w-x.co/weather/assets/today-card-night-cloudy-partly.52f28afe53344f0a15f1553531fe64b1.jpg)}
+.today-nowcard.today-card-day-fog{background-image:url(https://s.w-x.co/weather/assets/today-card-other-fog.fc2c360cd2e314c50da733e341b7fb05.jpg)}
+.today-nowcard.today-card-day-ice{background-image:url(https://s.w-x.co/weather/assets/today-card-other-ice.249712b3cffbd9f91f46c0ba31252121.jpg)}
+.today-nowcard.today-card-day-snow{background-image:url(https://s.w-x.co/weather/assets/today-card-other-snow.8d95a72fbb3d887678c5ef0287b79313.jpg)}
+.today-nowcard.today-card-severe-hurricane{background-image:url(https://s.w-x.co/weather/assets/today-card-severe-hurricane.e4fabb1e1c58488c93f58177bb2012db.jpg)}
+.today-nowcard.today-card-severe-tornado{background-image:url(https://s.w-x.co/weather/assets/today-card-severe-tornado.255df5b042705f94755dcfdf07192426.jpg)}
+.today-nowcard.today-card-severe-winterstorm{background-image:url(https://s.w-x.co/weather/assets/today-card-severe-winterstorm.717e2d70a78d73d9072a9e589fa25775.jpg)} */
+
+
+.locatoin {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 0 5px;
+}
+
+.last-update{
+    text-align: center;
+    font-size: 13px;
+    color: hsla(0,0%,100%,.5);
+    font-weight: 700;
+    text-transform: uppercase;
+}

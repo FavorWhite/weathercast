@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { WeathercastService } from 'app/services/weathercast.service';
-import { ForecastDay } from 'app/common/classes/forecastday';
-import { ForecastDateDesc } from 'app/common/classes/forecastdatedesc';
-import { Dictionary } from 'app/common/classes/dictionary';
-import { WindCharacteristics } from 'app/common/classes/windcharacteristics';
+import { WeathercastService } from '../services/weathercast.service';
+import { ForecastDay } from '../common/classes/forecastday';
+import { ForecastDateDesc } from '../common/classes/forecastdatedesc';
+import { Dictionary } from '../common/classes/dictionary';
+import { WindCharacteristics } from '../common/classes/windcharacteristics';
+import { CurrentObservation } from '../common/classes/current-observation';
 
 @Component({
     selector: 'dashboard',
@@ -19,7 +20,9 @@ export class DashboardComponent {
     dataDescribing: ForecastDateDesc[];
     daynumber = 1;
     windProperty: WindCharacteristics;
+    currentObservation: CurrentObservation;
 
+    
     constructor(private weatherService: WeathercastService) {
         this.forcastDayDictionary = new Dictionary<ForecastDateDesc[]>();
         this.weatherService.getForcastData()
@@ -35,6 +38,10 @@ export class DashboardComponent {
                 });
                 this.onDateSelect(this.daynumber);
             });
+            this.weatherService.getConditionsData()
+            .subscribe(data=>{
+                this.currentObservation = data.current_observation;
+            })
     }
 
 
