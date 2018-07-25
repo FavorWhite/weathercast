@@ -54,3 +54,23 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.today-nowcard-content {
+    padding: 10px 15px;
+}
+
+.today-nowcard .weather-icon-wrapper {
+    float: right;
+    padding: 10px 15px;
+    background: #fff;
+    opacity: 0.3;
+    margin: 10px;
+}
+
+.temperature {
+    font-size: 45px;
+}
+
+.weather {
+    font-size: 20px;
+}

@@ -14,7 +14,7 @@ import { CurrentObservation } from '../common/classes/current-observation';
 export class DashboardComponent {
 
     data: ForecastDay[];
-    
+
     dataDescribingCollection: ForecastDateDesc[];
     forcastDayDictionary: Dictionary<ForecastDateDesc[]>;
     dataDescribing: ForecastDateDesc[];
@@ -22,12 +22,12 @@ export class DashboardComponent {
     windProperty: WindCharacteristics;
     currentObservation: CurrentObservation;
 
-    
+
     constructor(private weatherService: WeathercastService) {
         this.forcastDayDictionary = new Dictionary<ForecastDateDesc[]>();
         this.weatherService.getForcastData()
             .subscribe(data => {
-                var counter = 0;
+                let counter = 0;
                 this.data = data.forecast.simpleforecast.forecastday;
                 this.dataDescribingCollection = data.forecast.txt_forecast.forecastday;
                 // Redo
@@ -39,7 +39,7 @@ export class DashboardComponent {
                 this.onDateSelect(this.daynumber);
             });
             this.weatherService.getConditionsData()
-            .subscribe(data=>{
+            .subscribe(data => {
                 this.currentObservation = data.current_observation;
             })
     }
